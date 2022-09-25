@@ -179,8 +179,6 @@ install(TARGETS mimick
   LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
   ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR})
 
-add_custom_target(mimick_tests ALL)
-
 function (add_mimick_sample _NAME)
   add_dependencies (mimick_tests ${_NAME})
 
