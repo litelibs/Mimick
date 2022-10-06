@@ -4,7 +4,7 @@
 
 cmake_minimum_required (VERSION 2.8.12)
 
-project (Mimick C CXX)
+project (Mimick C)
 # Default to C++11
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 11)
